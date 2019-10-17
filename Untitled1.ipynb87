@@ -1,0 +1,853 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled1.ipynb",
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Kenwick87/4080I017/blob/master/Untitled1.ipynb87\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "4K_YHBqAwPxN",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 85
+        },
+        "outputId": "90471cc2-28bc-4f7e-ae89-cba86770b5cc"
+      },
+      "source": [
+        "# 10-1\n",
+        "print(\"hello!\")\n",
+        "print(3*2*(17-2.1))\n",
+        "print(\"abc\"+\"def\")\n",
+        "word = \"art\"\n",
+        "print(word.replace(\"r\", \"n\"))"
+      ],
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "hello!\n",
+            "89.4\n",
+            "abcdef\n",
+            "ant\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "le5b5UDmwP61",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        "# 10-2\n",
+        "a= 1\n",
+        "b= 2\n",
+        "c = a/b\n",
+        "print(a, \"/\", b, \"=\", c) \n",
+        "add = str(a)+\"/\"+str(b)+\"=\"+str(c)\n",
+        "print(add)"
+      ],
+      "execution_count": 0,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "ZJfylAqpwQCl",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 51
+        },
+        "outputId": "db9a354e-ff88-438e-9304-949cf4fc5537"
+      },
+      "source": [
+        "# 10-3\n",
+        "input(\"Where do you live? \")\n",
+        "print(\"I live in Boston. \")"
+      ],
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Where do you live? 台南市\n",
+            "I live in Boston. \n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "UQjNqFbxwQFt",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 68
+        },
+        "outputId": "49136886-374c-4411-855c-bc9bb3dc5614"
+      },
+      "source": [
+        "# 10-4\n",
+        "user_place = input(\"Where do you live? \")\n",
+        "text = user_place.capitalize()+ \"!\"\n",
+        "print(text) \n",
+        "print(\"I hear it's nice there!\")"
+      ],
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Where do you live? 台南市\n",
+            "台南市!\n",
+            "I hear it's nice there!\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "slf0LsEcwQI9",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 68
+        },
+        "outputId": "09198ec0-3a0c-4c19-a313-0f769a156cf7"
+      },
+      "source": [
+        " 10-5\n",
+        "num = int(input (\"Enter a number to find the square of: \"))\n",
+        "user_input = input(\"Enter a integer to find the square of: \")\n",
+        "num = int(user_input) \n",
+        "print(num*num)"
+      ],
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter a number to find the square of: 2\n",
+            "Enter a integer to find the square of: 3\n",
+            "9\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "Itluq5NOwQMF",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 68
+        },
+        "outputId": "1aa76006-dd21-476c-dda5-759a8ff70d8d"
+      },
+      "source": [
+        "# 10-6\n",
+        "num1 = float(input(\"Enter a number: \"))\n",
+        "num2 = float(input(\"Enter another number: \"))\n",
+        "print(num1, \"*\", num2, \"=\", num1*num2)"
+      ],
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter a number: 9\n",
+            "Enter another number: 9\n",
+            "9.0 * 9.0 = 81.0\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "YNNxTJBWz_ed",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 68
+        },
+        "outputId": "8595f7bd-dd99-48d7-a2de-00d14187c178"
+      },
+      "source": [
+        "# 13-1\n",
+        "num = int(input(\"Enter a number: \"))\n",
+        "if num > 0:\n",
+        "    print(\"num is positive\")\n",
+        "print(\"finished comparing num to 0\")"
+      ],
+      "execution_count": 22,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter a number: 3\n",
+            "num is positive\n",
+            "finished comparing num to 0\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "5uCBCWPCz_hs",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 68
+        },
+        "outputId": "de7de177-29a4-48b3-a54d-de987e4a5dcb"
+      },
+      "source": [
+        "# 13-2\n",
+        "num_a = int(input(\"Pick a number: \"))   \n",
+        "if num_a > 0:\n",
+        "    print(\"Your number is positive\")   \n",
+        "if num_a < 0:\n",
+        "    print(\"Your number is negative \") \n",
+        "if num_a == 0: \n",
+        "    print(\"Your number is zero\")\n",
+        "print(\"Finished!\")"
+      ],
+      "execution_count": 23,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Pick a number: 2\n",
+            "Your number is positive\n",
+            "Finished!\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "MCek4GwYz_kk",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 68
+        },
+        "outputId": "91f0536a-d036-4c78-f356-ca9601bab00a"
+      },
+      "source": [
+        "# 13-3非巢狀條件式\n",
+        "num_a = int(input(\"Number? \"))\n",
+        "num_b = int(input(\"Number? \"))\n",
+        "if num_a < 0:\n",
+        "   print(\"num_a is negative\") \n",
+        "if num_b < 0:\n",
+        "    print(\"num_b is negative\")\n",
+        "print(\"Finished\")"
+      ],
+      "execution_count": 24,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Number? 3\n",
+            "Number? 3\n",
+            "Finished\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "DpJ_4heDz_nb",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 68
+        },
+        "outputId": "601baca6-be97-498c-e3d7-7490b9e51c87"
+      },
+      "source": [
+        "# 13-3巢狀條件式\n",
+        "num_a = int(input(\"Number? \"))\n",
+        "num_b = int(input(\"Number? \"))\n",
+        "if num_a < 0:      \n",
+        "    print(\"num_a is negative\")\n",
+        "    if num_b < 0:\n",
+        "        print(\"num_b is negative\")\n",
+        "print(\"Finished\")"
+      ],
+      "execution_count": 25,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Number? 2\n",
+            "Number? 2\n",
+            "Finished\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "nBFc1ZIwz_sm",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 68
+        },
+        "outputId": "2c6773ae-37d1-4fb4-d7ef-15b33a88b0ce"
+      },
+      "source": [
+        "# 13-4\n",
+        "price = float(input(\"How much does a chocolate bar cost? \"))\n",
+        "hungry = input(\"Are you hungry(yes or no)? \")\n",
+        "\n",
+        "bars = 0\n",
+        "if hungry == \"yes\": \n",
+        "    if price < 10:\n",
+        "        print(\"Buy all chocolate bars.\")\n",
+        "        bar = 100\n",
+        "    if 10 <= price <= 50:\n",
+        "        print(\"Buy 10 chocolate bars.\")     \n",
+        "        bars = 10\n",
+        "    if price > 50:\n",
+        "        print(\"Buy only one chocolate bar.\")\n",
+        "        bars = 1\n",
+        "if hungry == \"no\":\n",
+        "    print(\"Stick to the shopping list.\")\n",
+        "if bars > 10:\n",
+        "    print(\"Cashier says: someone's hungry!\")"
+      ],
+      "execution_count": 26,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "How much does a chocolate bar cost? 30\n",
+            "Are you hungry(yes or no)? yes\n",
+            "Buy 10 chocolate bars.\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "mJZ1L63Mz_xm",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 51
+        },
+        "outputId": "22941cb2-7885-42fb-e546-6e91b9e22ce7"
+      },
+      "source": [
+        "# 13-5\n",
+        "num_a = int(input(\"pick a number:\"))\n",
+        "num_b = int(input(\"pick a number:\"))\n",
+        "if num_a < 0 and num_b < 0: \n",
+        "    print(\"both negative\")"
+      ],
+      "execution_count": 27,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "pick a number:3\n",
+            "pick a number:3\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "qTSK1gkH1Qcy",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 51
+        },
+        "outputId": "d8af23b8-6442-470a-c682-c57a935a3579"
+      },
+      "source": [
+        "# 14-1\n",
+        "Num=int(input(\"please pick a number: \"))\n",
+        "if Num%2==0:\n",
+        "    print(\"Even Number\")\n",
+        "else:\n",
+        "    print(\"Odd Number\")"
+      ],
+      "execution_count": 28,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "please pick a number: 2\n",
+            "Even Number\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "tI3-DKd8z_1F",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 51
+        },
+        "outputId": "12c021fe-a46e-4d12-e070-c0ff4b3abb4d"
+      },
+      "source": [
+        "# 14-2\n",
+        "num = int(input(\"Enter a number: \"))\n",
+        "if num > 0:\n",
+        "    print(\"num is positive\")\n",
+        "elif num < 0:\n",
+        "    print(\"num is negative\")\n",
+        "else:\n",
+        "    print(\"num is zero\")"
+      ],
+      "execution_count": 29,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter a number: 5\n",
+            "num is positive\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "0lwqDymbz_60",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 85
+        },
+        "outputId": "61688239-8c21-4d9a-837f-68cd64f70443"
+      },
+      "source": [
+        "# 14-3\n",
+        "num_a = int(input(\"pick a number: \"))\n",
+        "num_b = int(input(\"pick another number: \"))\n",
+        "lucky_num = 7\n",
+        "if num_a==num_b:\n",
+        "    print(\"You enter the same number\")\n",
+        "else:\n",
+        "    if num_a > 0 and num_b > 0:\n",
+        "        print(\"both numbers are positive\")\n",
+        "    elif num_a < 0 and num_b < 0:\n",
+        "        print(\"both numbers are negative\")\n",
+        "    else:\n",
+        "        print(\"numbers have opposite sign\")\n",
+        "if num_a == lucky_num or num_b == lucky_num:\n",
+        "    print(\"you also guessed my lucky number!\")\n",
+        "else:\n",
+        "    print(\"I have a secret number in mind...\")"
+      ],
+      "execution_count": 30,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "pick a number: 87\n",
+            "pick another number: 87\n",
+            "You enter the same number\n",
+            "I have a secret number in mind...\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "iTihnmCGz_9s",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 85
+        },
+        "outputId": "dcddddfb-48e4-41f5-df59-52741642cab1"
+      },
+      "source": [
+        "# 14-4\n",
+        "num_a = int(input(\"pick a number: \"))\n",
+        "num_b = int(input(\"pick another number: \"))\n",
+        "lucky_num = 7\n",
+        "if num_a == num_b:\n",
+        "    print(\"You enter the same number\")\n",
+        "elif num_a > 0 and num_b > 0:\n",
+        "    print(\"both numbers are positive\")\n",
+        "elif num_a < 0 and num_b < 0:\n",
+        "    print(\"both numbers are negative\")\n",
+        "else:\n",
+        "    print(\"numbers have opposite sign\")\n",
+        "if num_a == lucky_num or num_b == lucky_num:\n",
+        "    print(\"you also guessed my lucky number!\")\n",
+        "else:\n",
+        "    print(\"I have a secret number in mind...\")"
+      ],
+      "execution_count": 31,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "pick a number: 78\n",
+            "pick another number: 78\n",
+            "You enter the same number\n",
+            "I have a secret number in mind...\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "jZiH4PqZ0AAs",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 85
+        },
+        "outputId": "36040d69-4154-469b-b2ed-41f141bee626"
+      },
+      "source": [
+        "# 14-5\n",
+        "greeting = input(\"Say hi in English or Spanish! \")\n",
+        "greet_en =(\"hi\", \"Hi\", \"hello\", \"Hello\")\n",
+        "greet_sp =(\"hola\", \"Hola\")\n",
+        "if greeting not in greet_en and greeting not in greet_sp:\n",
+        "    print(\"I don't understand your greeting.\")\n",
+        "elif greeting in greet_en:\n",
+        "  num = int(input(\"Enter 1 or 2: \"))\n",
+        "  print(\"You speak English!\")\n",
+        "  if num == 1:\n",
+        "      print(\"one\")\n",
+        "  elif num == 2:\n",
+        "      print(\"two\")\n",
+        "elif greeting in greet_sp:\n",
+        "    num = int(input(\"Enter 1 or 2: \"))\n",
+        "    print(\"You speak Spanish!\")\n",
+        "    if num == 1:\n",
+        "        print(\"uno\")\n",
+        "    elif num == 2:\n",
+        "        print(\"dos\")"
+      ],
+      "execution_count": 32,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Say hi in English or Spanish! Hello\n",
+            "Enter 1 or 2: 1\n",
+            "You speak English!\n",
+            "one\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "-ifRhZ_O0ADk",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 102
+        },
+        "outputId": "0098155e-80bf-44e8-8ebf-2abfe4fc8864"
+      },
+      "source": [
+        "# 15-1\n",
+        "print(\"You are on a deserted island in a 2D world.\")\n",
+        "print(\"Try to survive until rescue arrives!\")\n",
+        "print(\"Available commands are in CAPITAL letters.\")\n",
+        "print(\"Any other command exits the program\")\n",
+        "print(\"First LOOK around...\")"
+      ],
+      "execution_count": 33,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "You are on a deserted island in a 2D world.\n",
+            "Try to survive until rescue arrives!\n",
+            "Available commands are in CAPITAL letters.\n",
+            "Any other command exits the program\n",
+            "First LOOK around...\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "NQVHUvSt0AJg",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 68
+        },
+        "outputId": "50a93e4e-0d2d-4b95-92d7-9923433f4475"
+      },
+      "source": [
+        "# 15-2\n",
+        "do = input(\":: \")\n",
+        "if do == \"LOOK\":   \n",
+        "    print(\"You are stuck in a sand ditch.\")\n",
+        "    print(\"Crawl out LEFT or RIGHT.\")\n",
+        "    do = input(\":: \")\n",
+        "    if do == \"LEFT\":   \n",
+        "        print(\"You make it out and see a ship!\")\n",
+        "        print(\"You survived!\")\n",
+        "    elif do == \"RIGHT\":   \n",
+        "        print(\"No can do. That side is very slippery.\")\n",
+        "    print(\"You fall very far into some weird cavern.\")\n",
+        "    print(\"You do not survive :(\")\n",
+        "else:\n",
+        "    print(\"You can only do actions shown in capital letters.\")\n",
+        "    print(\"Try again!\")"
+      ],
+      "execution_count": 36,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            ":: left\n",
+            "You can only do actions shown in capital letters.\n",
+            "Try again!\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "AbiTEJqo0AMo",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 391
+        },
+        "outputId": "5a97a5b1-023d-4206-ba29-cf05e765ed7d"
+      },
+      "source": [
+        "# 15-3\n",
+        "print(\"You are on a deserted island in a 2D world.\")\n",
+        "print(\"Try to survive until rescue arrives!\")\n",
+        "print(\"Available commands are in CAPITAL letters.\")\n",
+        "print(\"Any other command exits the program\")\n",
+        "print(\"First LOOK around...\")\n",
+        "do = input(\":: \")\n",
+        "if do == \"LOOK\":\n",
+        "    print(\"You are stuck in a sand ditch.\")\n",
+        "    print(\"Crawl out LEFT or RIGHT.\")\n",
+        "    do = input(\":: \")\n",
+        "    if do == \"LEFT\":   \n",
+        "        print(\"You see a STARFISH and a CRAB on the sand.\")\n",
+        "        print(\"And you're hungry! Which do you eat?\")\n",
+        "        do = input(\":: \")\n",
+        "        if do==\"STARFISH\":\n",
+        "            print(\"Oh no! You immediately don't feel well.\")\n",
+        "            print(\"You do not survive :(\")\n",
+        "        elif do == \"CRAB\":\n",
+        "            print(\"Raw crab should be fine, right? YES or NO.\")\n",
+        "            do = input(\":: \")\n",
+        "            if do == \"YES\":   \n",
+        "                print(\"Ok, You eat it raw. Fingers crossed.\")\n",
+        "                print(\"Food in your belly helps you see a TREE.\")\n",
+        "                do = input(\":: \")\n",
+        "                if do == \"TREE\":   \n",
+        "                    print(\"It's a coconut tree! And you're thirsty!\")\n",
+        "                    print(\"Do you drink the coconut water? YES or NO.\")\n",
+        "                    do = input(\":: \")\n",
+        "                    if do == \"YES\": \n",
+        "                        print(\"Oh boy. Coconut water and raw crab don't mix.\")\n",
+        "                        print(\"You do not survive :(\")\n",
+        "                elif do == \"NO\":\n",
+        "                    print(\"Good choice.\")\n",
+        "                    print(\"Look! It's a rescue plane! Youmade it! \\o/\")\n",
+        "            elif do == \"NO\": \n",
+        "                print(\"Well, there's nothing else left to eat.\")\n",
+        "                print(\"You do not survive :(\")\n",
+        "    elif do == \"RIGHT\":   \n",
+        "        print(\"No can do. That side is very slippery.\")\n",
+        "        print(\"You fall very far into some weird cavern.\")\n",
+        "        print(\"You do not survive :(\")\n",
+        "else:\n",
+        "    print(\"You can only do actions shown in capital letters.\")\n",
+        "    print(\"Try again!\")"
+      ],
+      "execution_count": 37,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "You are on a deserted island in a 2D world.\n",
+            "Try to survive until rescue arrives!\n",
+            "Available commands are in CAPITAL letters.\n",
+            "Any other command exits the program\n",
+            "First LOOK around...\n",
+            ":: LOOK\n",
+            "You are stuck in a sand ditch.\n",
+            "Crawl out LEFT or RIGHT.\n",
+            ":: LEFT\n",
+            "You see a STARFISH and a CRAB on the sand.\n",
+            "And you're hungry! Which do you eat?\n",
+            ":: CRAB\n",
+            "Raw crab should be fine, right? YES or NO.\n",
+            ":: YES\n",
+            "Ok, You eat it raw. Fingers crossed.\n",
+            "Food in your belly helps you see a TREE.\n",
+            ":: TREE\n",
+            "It's a coconut tree! And you're thirsty!\n",
+            "Do you drink the coconut water? YES or NO.\n",
+            ":: YES\n",
+            "Oh boy. Coconut water and raw crab don't mix.\n",
+            "You do not survive :(\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "zJKZ4PSJ0AR8",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 102
+        },
+        "outputId": "94c59e98-7e01-4077-974f-57aba7b1e69b"
+      },
+      "source": [
+        "# 16-1\n",
+        "s = input(\" 請輸入顯示內容 : \")\n",
+        "n = int(input(\" 請輸入顯示次數 : \"))\n",
+        "while n > 0:\n",
+        "    print(s)\n",
+        "    n = n-1"
+      ],
+      "execution_count": 38,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            " 請輸入顯示內容 : 3\n",
+            " 請輸入顯示次數 : 3\n",
+            "3\n",
+            "3\n",
+            "3\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "dfw8hGSvzp83",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        "# 16-2\n",
+        "lucky_num = 77\n",
+        "guess = int(input(\"Guess a Number(0-99): \"))\n",
+        "tries = 1\n",
+        "while guess != lucky_num:\n",
+        "    print(\"You tried to guess\", tries, \"times\")\n",
+        "    guess = int(input(\"Guess again: \"))\n",
+        "    tries += 1\n",
+        "print(\"You got it!\")"
+      ],
+      "execution_count": 0,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "QlyA-QpyzqE-",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": 0,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "ewpXW1V7zqNT",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": 0,
+      "outputs": []
+    }
+  ]
+}
